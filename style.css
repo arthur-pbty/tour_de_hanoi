@@ -1,0 +1,87 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  height: 540px;
+}
+
+.towers {
+  display: flex;
+  flex-direction: column;
+  background-color: #3498db56;
+  border-radius: 30px 30px 5px 5px;
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.disks {
+  vertical-align:baseline;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: #3498db;
+  border-radius: 5px;
+}
+
+#disk1 {
+  background-color: #FF6B6B;
+  width: 20px;
+}
+
+#disk2 {
+  background-color: #6BFF6B;
+  width: 40px;
+}
+
+#disk3 {
+  background-color: #6B6BFF;
+  width: 60px;
+}
+
+#disk4 {
+  background-color: #FF6BFF;
+  width: 80px;
+}
+
+#disk5 {
+  background-color: #FFFF6B;
+  width: 100px;
+}
+
+#disk6 {
+  background-color: #6BFFFF;
+  width: 120px;
+}
+
+#disk7 {
+  background-color: #FFA500;
+  width: 140px;
+}
+
+#disk8 {
+  background-color: #9400D3;
+  width: 160px;
+}
+
+#disk9 {
+  background-color: #32CD32;
+  width: 180px;
+}
+
+#disk10 {
+  background-color: #663399;
+  width: 200px;
+}
